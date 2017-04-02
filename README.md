@@ -1,8 +1,26 @@
-![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
+# Training Flickr Logos 27
 
-#Darknet#
-Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
+##Download Flickr Logos 27 dataset
 
-For more information see the [Darknet project website](http://pjreddie.com/darknet).
 
-For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
+```
+cd data/
+wget http://image.ntua.gr/iva/datasets/flickr_logos/flickr_logos_27_dataset.tar.gz
+tar -xvf flickr_logos_27_dataset.tar.gz
+cd flickr_logos_27_dataset
+tar -xvf flickr_logos_27_dataset_images.tar.gz
+cd ../../
+```
+
+##Configure path
+
+Change path in scripts/formatting_flickr27_dataset.py
+
+Then run
+
+
+```
+python formatting_flickr27_dataset.py
+```
+
+Config net: https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
