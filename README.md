@@ -12,7 +12,7 @@ tar -xvf flickr_logos_27_dataset_images.tar.gz
 cd ../../
 ```
 
-## Script to convert flickr27 to VOC
+## Script to convert flickr27 to Yolov2 format
 
 Change path in scripts/formatting_flickr27_dataset.py
 
