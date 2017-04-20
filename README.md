@@ -1,4 +1,4 @@
-# Training Flickr Logos 27
+# Training on Flickr Logos 27 or BelgaLogos
 
 ## Download Flickr Logos 27 dataset
 
@@ -22,6 +22,16 @@ Then run
 ```
 python formatting_flickr27_dataset.py
 ```
+## Script to convert BelgaLogos to Yolov2 format
+
+Change path in scripts/belgalogos_to_yolov2_formta.py
+
+Then run
+
+```
+python belgalogos_to_yolov2_formta.py
+```
+
 
 ## Config net 
 
