@@ -1,6 +1,6 @@
 # Training Flickr Logos 27
 
-##Download Flickr Logos 27 dataset
+## Download Flickr Logos 27 dataset
 
 
 ```
@@ -12,7 +12,7 @@ tar -xvf flickr_logos_27_dataset_images.tar.gz
 cd ../../
 ```
 
-##Configure path
+## Script to convert flickr27 to Yolov2 format
 
 Change path in scripts/formatting_flickr27_dataset.py
 
@@ -22,5 +22,7 @@ Then run
 ```
 python formatting_flickr27_dataset.py
 ```
+
+## Config net 
 
 Config net: https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
